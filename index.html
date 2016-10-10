@@ -2,12 +2,114 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
   <title>Music History</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
 
+  <div id="main">
 
+ 	
+  
+  	
+
+	<nav>
+	  <ul>
+	 	<li><h6>View Music |</h6></li>
+
+	 	<li><a href="#"><span class="Add-music">Add Music |</span></a></li>
+
+		<li><a href="#"><span class="profile-menu">Profile |</span></a></li>
+
+	  </ul>
+    </nav>
+
+   
+   
+ 
+
+
+ 		<div id="sidebar">
+ 			
+ 		<p class="first-item">Song length</p>
+ 		<!-- <p class="second-item">volume bar</p> -->
+ 		<div class="sl_bar">
+         <div class="sl_range"></div>
+        </div>
+ 		<p class="third-item">Artist:</p>
+
+ 		<select name="artist-option" class="fourth-item">
+ 			<option>U2</option>
+ 			<option>Queen</option>
+ 			<option>Maroon 5</option>
+ 			<option>Michael Jackson</option>
+ 			<option>The police</option>
+ 			<option>Itzhak Perlman</option>
+
+ 		</select>
+ 		
+ 		<p class="fifth-item">Album:</p>
+
+ 		<select name="Album-option" class="sixth-item">
+ 			<option value="Thriller">Thriller</option>
+ 			<option value="The Joshua Tree">The Joshua Tree</option>
+ 			<option value="Songs About Jane">Songs About Jane</option>
+ 			<option value="A Night At The Opera">A Night At The Opera</option>
+ 			<option value="Synchronicity">Synchronicity</option>
+ 			<option value="In the Fiddler's House">In the Fiddler's House</option>
+
+ 		</select>
+
+ 		<p class="seventh-item">Genre:</p>
+
+ 		<div class="genre-choice"><input type="checkbox" name="Genre" value="Rock" checked="checked">Rock <span class="classical-space"></span>
+ 		<input type="checkbox" name="Genre" value="Classical" checked="checked">Classical<br>
+ 		<input type="checkbox" name="Genre" value="pop" checked="checked">Pop<span class="jazz-space"></span>
+ 		<input type="checkbox" name="Genre" value="jazz" checked="checked" >Jazz
+ 		<br><input type="checkbox" name="Genre" value="Blues" checked="checked">Blues 
+ 		<input type="checkbox" name="Genre" value="Hip hop" checked="checkbox">
+ 		Hip pop</div>
+
+
+ 		<br><input type="submit" value="Filter" class="filter-button">
+	</div>
+
+  		  <div id="song-list">
+
+   	
+   			<ul class="song-content">
+		     	<li> <a href="#" > <span class="song-name">Thriller</span></a></li>
+		     	<li class="content-order"><p class="ArtistN">Michael Jackson |</p>
+		    	 <p class="AlbumN"> Thriller |</p>
+		    	 <p class="Genre"> Pop </p></li>
+
+
+		    
+		    	<li> <a href="#" > <span class="song-name">With or Without You</span></a></li>
+
+		    	<li class="content-order"><p class="ArtistN">U2 |</p>
+				<p class="AlbumN">The Joshua Tree |</p>
+				<p class="Genre">Rock </p></li>
+
+				<li> <a href="#" > <span class="song-name">Bohemian Rhapsody</span></a></li>
+
+			
+		    	<li class="content-order"><p class="ArtistN">Queen |</p>
+				<p class="AlbumN">A Night at the Opera |</p>
+				<p class="Genre">Rock</p></li>
+
+				<li> <a href="#" > <span class="song-name">She Will Be Loved</span></a></li>
+
+				<li class="content-order"><p class="ArtistN">Maroon 5 |</p>
+				<p class="AlbumN">Songs About Jane |</p>
+				<p class="Genre">pop </p></li>
+
+  			</ul>
+
+ 		</div>
+
+	</div>
 </body>
 </html>
