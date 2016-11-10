@@ -71,3 +71,12 @@ injectDOM += injectTitle + injectArtist + injectAlbum + injectEnd;
 
 injectPoint.innerHTML = injectDOM;
 
+
+
+
+
+
+
+
+
+
